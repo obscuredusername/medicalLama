@@ -1,0 +1,82 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 4.983606557377049,
+  "eval_steps": 500,
+  "global_step": 76,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.6557377049180327,
+      "grad_norm": 3.765167713165283,
+      "learning_rate": 1.9936113105200085e-05,
+      "loss": 2.6989,
+      "step": 10
+    },
+    {
+      "epoch": 1.3114754098360657,
+      "grad_norm": 3.568129539489746,
+      "learning_rate": 1.971631732914674e-05,
+      "loss": 2.5719,
+      "step": 20
+    },
+    {
+      "epoch": 1.9672131147540983,
+      "grad_norm": 2.8119823932647705,
+      "learning_rate": 1.9343289424566122e-05,
+      "loss": 2.4224,
+      "step": 30
+    },
+    {
+      "epoch": 2.6229508196721314,
+      "grad_norm": 3.0055439472198486,
+      "learning_rate": 1.8822912264349535e-05,
+      "loss": 2.2696,
+      "step": 40
+    },
+    {
+      "epoch": 3.278688524590164,
+      "grad_norm": 2.359025239944458,
+      "learning_rate": 1.816339250717184e-05,
+      "loss": 2.1419,
+      "step": 50
+    },
+    {
+      "epoch": 3.9344262295081966,
+      "grad_norm": 2.2187132835388184,
+      "learning_rate": 1.737513117358174e-05,
+      "loss": 2.0059,
+      "step": 60
+    },
+    {
+      "epoch": 4.590163934426229,
+      "grad_norm": 2.091038703918457,
+      "learning_rate": 1.6470559615694445e-05,
+      "loss": 1.912,
+      "step": 70
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 250,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 17,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 237927654236160.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
